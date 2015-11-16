@@ -7,8 +7,6 @@ app.controller('MainCtrl', function ($scope) {
     $scope.testing = "this test was successful ^_^";
 });
 
-
-///home/dev/directive/template.html
 app.directive('tbUser', function () {
     return {
         templateUrl: "templates/userTemp.html",
